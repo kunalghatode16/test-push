@@ -22,4 +22,4 @@ def hello_http(request):
         name = 'World! This is test from kunal test-push'
     return 'Hello {}!'.format(name)
 
-#This is test from kunal test-push
+#This is test from kunal
