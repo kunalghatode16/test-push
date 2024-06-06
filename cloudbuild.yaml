@@ -4,4 +4,4 @@ steps:
 
 steps:
 - name: 'gcr.io/cloud-builders/gcloud'
-  args: ['functions', 'deploy', 'testing-push1', '--source=.']
+  args: ['functions', 'deploy', 'testing-push1', '--source=test-push1/']
