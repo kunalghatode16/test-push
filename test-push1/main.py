@@ -42,7 +42,7 @@ def hello_http(request):
     elif request_args and 'name' in request_args:
         name = request_args['name']
     else:
-        name = 'World testing testing-push1'
+        name = 'World testing-push1'
     return 'Hello {}!'.format(name)
 
-# test-push1 testing
+# test-push1 
