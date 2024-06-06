@@ -2,6 +2,7 @@ steps:
 - name: 'gcr.io/cloud-builders/gcloud'
   args: ['functions', 'deploy', 'testing-push', '--source=.']
 
+#test-push1
 steps:
 - name: 'gcr.io/cloud-builders/gcloud'
   args: ['functions', 'deploy', 'testing-push1', '--source=test-push1/']
